@@ -52,7 +52,7 @@
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+- [Brian](https://github.com/Brianalmeida)
 
 &nbsp;
 

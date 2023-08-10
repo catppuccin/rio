@@ -1,17 +1,25 @@
 [colors]
+
+# Normal
+foreground       = '#C6D0F5'
 background       = '#303446'
 black            = '#51576D'
 blue             = '#8CAAEE'
 cursor           = '#F2D5CF'
 cyan             = '#81C8BE'
-foreground       = '#C6D0F5'
 green            = '#A6D189'
 magenta          = '#F4B8E4'
 red              = '#E78284'
-tabs             = '#1E1E2E'
-tabs-active      = '#B4BEFE'
 white            = '#B5BFE2'
 yellow           = '#E5C890'
+
+# UI colors
+tabs             = '#1E1E2E'
+tabs-active      = '#B4BEFE'
+selection-foreground = '#303446'
+selection-background = '#F2D5CF'
+
+# Dim colors
 dim-black        = '#51576D'
 dim-blue         = '#8CAAEE'
 dim-cyan         = '#81C8BE'
@@ -21,6 +29,8 @@ dim-magenta      = '#F4B8E4'
 dim-red          = '#E78284'
 dim-white        = '#B5BFE2'
 dim-yellow       = '#E5C890'
+
+# Light colors
 light-black      = '#626880'
 light-blue       = '#8CAAEE'
 light-cyan       = '#81C8BE'

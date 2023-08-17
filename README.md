@@ -37,8 +37,13 @@
 ## Usage
 
 1. Clone this repository locally
-- *~/.config/rio/themes* for MacOS/Linux
-- <em>C:\Users\USER\AppData\Local\rio\themes\ </em> for Windows
+- Rio will look for themes in these paths 
+```
+*~/.config/rio/themes* for MacOS/Linux
+```
+```
+C:\Users\USER\AppData\Local\rio\themes\ for Windows
+```
 2. Edit your ~/.config/rio/config.toml file and change the 'theme' value to your desired colorscheme
   > Here is a example [config](https://raphamorim.io/rio/docs/)
 3. Go ahead and save your changes

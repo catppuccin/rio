@@ -40,7 +40,7 @@
 1. Clone this repository locally
 - Rio will look for themes in these paths 
 ```
-*~/.config/rio/themes* for MacOS/Linux
+~/.config/rio/themes* for MacOS/Linux
 ```
 ```
 C:\Users\USER\AppData\Local\rio\themes\ for Windows

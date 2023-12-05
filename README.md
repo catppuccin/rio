@@ -46,7 +46,7 @@
 C:\Users\USER\AppData\Local\rio\themes\ for Windows
 ```
 2. Edit your ~/.config/rio/config.toml file and change the 'theme' value to your desired colorscheme
-  > Here is a example [config](https://raphamorim.io/rio/docs/documentation/configuration-file)
+  > Here is an example [config](https://raphamorim.io/rio/docs/configuration-file)
 3. Go ahead and save your changes
 4. Rio will automatically detect your changes  
 

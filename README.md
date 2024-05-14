@@ -12,9 +12,8 @@
 </p>
 
 <p align="center">
-	<img src="https://github.com/Brianalmeida/rio-theme/blob/main/assets/catppuccin-layout.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
-
 
 ## Previews
 
@@ -24,7 +23,7 @@
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="assets/frappé.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
@@ -37,24 +36,9 @@
 
 ## Usage
 
-1. Clone this repository locally
-- Rio will look for themes in these paths 
-```
-~/.config/rio/themes for MacOS/Linux
-```
-```
-C:\Users\USER\AppData\Local\rio\themes\ for Windows
-```
-2. Edit your ~/.config/rio/config.toml file and change the 'theme' value to your desired colorscheme
-  > Here is an example [config](https://raphamorim.io/rio/docs/configuration-file)
-3. Go ahead and save your changes
-4. Rio will automatically detect your changes  
-
-<!-- this section is optional -->
-## 🙋 FAQ
-
--	Q: **_"Where can I find the doc?"_**\
-	A: Run `:help theme`
+1. Download your flavor of choice from [`themes/`](./themes/) to [Rio's theme directory](https://raphamorim.io/rio/docs/0.x.x/configuration-file#themes).
+2. Edit your [Rio configuration file](https://raphamorim.io/rio/docs/0.x.x/configuration-file) and set `theme` to `catppuccin-<flavor>` (or simply the filename minus the extension of the file you previously downloaded).
+3. Save your changes.
 
 ## 💝 Thanks to
 

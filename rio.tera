@@ -1,0 +1,52 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
+---
+
+{%- set palette = flavor.colors -%}
+
+[colors]
+
+# Normal
+foreground       = '#{{ palette.text.hex }}'
+background       = '#{{ palette.base.hex }}'
+black            = '#{{ palette.surface1.hex }}'
+blue             = '#{{ palette.blue.hex }}'
+cursor           = '#{{ palette.rosewater.hex }}'
+cyan             = '#{{ palette.teal.hex }}'
+green            = '#{{ palette.green.hex }}'
+magenta          = '#{{ palette.pink.hex }}'
+red              = '#{{ palette.red.hex }}'
+white            = '#{{ palette.subtext1.hex }}'
+yellow           = '#{{ palette.yellow.hex }}'
+
+# UI colors
+tabs             = '#{{ palette.base.hex }}'
+tabs-active      = '#{{ palette.lavender.hex }}'
+selection-foreground = '#{{ palette.base.hex }}'
+selection-background = '#{{ palette.rosewater.hex }}'
+
+# Dim colors
+dim-black        = '#{{ palette.surface1.hex }}'
+dim-blue         = '#{{ palette.blue.hex }}'
+dim-cyan         = '#{{ palette.teal.hex }}'
+dim-foreground   = '#{{ palette.text.hex }}'
+dim-green        = '#{{ palette.green.hex }}'
+dim-magenta      = '#{{ palette.pink.hex }}'
+dim-red          = '#{{ palette.red.hex }}'
+dim-white        = '#{{ palette.subtext1.hex }}'
+dim-yellow       = '#{{ palette.yellow.hex }}'
+
+# Light colors
+light-black      = '#{{ palette.surface2.hex }}'
+light-blue       = '#{{ palette.blue.hex }}'
+light-cyan       = '#{{ palette.teal.hex }}'
+light-foreground = '#{{ palette.text.hex }}'
+light-green      = '#{{ palette.green.hex }}'
+light-magenta    = '#{{ palette.pink.hex }}'
+light-red        = '#{{ palette.red.hex }}'
+light-white      = '#{{ palette.subtext0.hex }}'
+light-yellow     = '#{{ palette.yellow.hex }}'

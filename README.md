@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Download your flavor of choice from [`themes/`](./themes/) to [Rio's theme directory](https://raphamorim.io/rio/docs/config/theme).
+1. Download your flavor of choice from [`themes/`](./themes/) to [Rio's theme directory](https://rioterm.com/docs/config#theme).
 2. Edit your [Rio configuration file](https://raphamorim.io/rio/docs/config) and set `theme` to `catppuccin-<flavor>` (or simply the filename minus the extension of the file you previously downloaded).
 3. Save your changes.
 

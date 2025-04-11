@@ -22,9 +22,12 @@ yellow           = '#{{ yellow.hex }}'
 
 # UI colors
 tabs             = '#{{ base.hex }}'
+tabs-foreground  = '#{{ text.hex }}'
 tabs-active      = '#{{ lavender.hex }}'
-selection-foreground = '#{{ base.hex }}'
-selection-background = '#{{ rosewater.hex }}'
+tabs-active-highlight  = '#{{ lavender.hex }}'
+tabs-active-foreground = '#{{ crust.hex }}'
+selection-foreground   = '#{{ base.hex }}'
+selection-background   = '#{{ rosewater.hex }}'
 
 # Dim colors
 dim-black        = '#{{ surface1.hex }}'

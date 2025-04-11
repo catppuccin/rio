@@ -15,9 +15,12 @@ yellow           = '#df8e1d'
 
 # UI colors
 tabs             = '#eff1f5'
+tabs-foreground  = '#4c4f69'
 tabs-active      = '#7287fd'
-selection-foreground = '#eff1f5'
-selection-background = '#dc8a78'
+tabs-active-highlight  = '#7287fd'
+tabs-active-foreground = '#dce0e8'
+selection-foreground   = '#eff1f5'
+selection-background   = '#dc8a78'
 
 # Dim colors
 dim-black        = '#bcc0cc'

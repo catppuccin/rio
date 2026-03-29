@@ -1,52 +1,53 @@
 ---
 whiskers:
-  version: "2.2.0"
+  version: "^2.4.0"
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.toml"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 [colors]
 
 # Normal
-foreground       = '#{{ text.hex }}'
-background       = '#{{ base.hex }}'
-black            = '#{{ surface1.hex }}'
-blue             = '#{{ blue.hex }}'
-cursor           = '#{{ rosewater.hex }}'
-cyan             = '#{{ teal.hex }}'
-green            = '#{{ green.hex }}'
-magenta          = '#{{ pink.hex }}'
-red              = '#{{ red.hex }}'
-white            = '#{{ subtext1.hex }}'
-yellow           = '#{{ yellow.hex }}'
+foreground       = '{{ text.hex }}'
+background       = '{{ base.hex }}'
+black            = '{{ surface1.hex }}'
+blue             = '{{ blue.hex }}'
+cursor           = '{{ rosewater.hex }}'
+cyan             = '{{ teal.hex }}'
+green            = '{{ green.hex }}'
+magenta          = '{{ pink.hex }}'
+red              = '{{ red.hex }}'
+white            = '{{ subtext1.hex }}'
+yellow           = '{{ yellow.hex }}'
 
 # UI colors
-tabs             = '#{{ base.hex }}'
-tabs-foreground  = '#{{ text.hex }}'
-tabs-active      = '#{{ lavender.hex }}'
-tabs-active-highlight  = '#{{ lavender.hex }}'
-tabs-active-foreground = '#{{ crust.hex }}'
-selection-foreground   = '#{{ base.hex }}'
-selection-background   = '#{{ rosewater.hex }}'
+tabs             = '{{ base.hex }}'
+tabs-foreground  = '{{ text.hex }}'
+tabs-active      = '{{ lavender.hex }}'
+tabs-active-highlight  = '{{ lavender.hex }}'
+tabs-active-foreground = '{{ crust.hex }}'
+selection-foreground   = '{{ base.hex }}'
+selection-background   = '{{ rosewater.hex }}'
 
 # Dim colors
-dim-black        = '#{{ surface1.hex }}'
-dim-blue         = '#{{ blue.hex }}'
-dim-cyan         = '#{{ teal.hex }}'
-dim-foreground   = '#{{ text.hex }}'
-dim-green        = '#{{ green.hex }}'
-dim-magenta      = '#{{ pink.hex }}'
-dim-red          = '#{{ red.hex }}'
-dim-white        = '#{{ subtext1.hex }}'
-dim-yellow       = '#{{ yellow.hex }}'
+dim-black        = '{{ surface1.hex }}'
+dim-blue         = '{{ blue.hex }}'
+dim-cyan         = '{{ teal.hex }}'
+dim-foreground   = '{{ text.hex }}'
+dim-green        = '{{ green.hex }}'
+dim-magenta      = '{{ pink.hex }}'
+dim-red          = '{{ red.hex }}'
+dim-white        = '{{ subtext1.hex }}'
+dim-yellow       = '{{ yellow.hex }}'
 
 # Light colors
-light-black      = '#{{ surface2.hex }}'
-light-blue       = '#{{ blue.hex }}'
-light-cyan       = '#{{ teal.hex }}'
-light-foreground = '#{{ text.hex }}'
-light-green      = '#{{ green.hex }}'
-light-magenta    = '#{{ pink.hex }}'
-light-red        = '#{{ red.hex }}'
-light-white      = '#{{ subtext0.hex }}'
-light-yellow     = '#{{ yellow.hex }}'
+light-black      = '{{ surface2.hex }}'
+light-blue       = '{{ blue.hex }}'
+light-cyan       = '{{ teal.hex }}'
+light-foreground = '{{ text.hex }}'
+light-green      = '{{ green.hex }}'
+light-magenta    = '{{ pink.hex }}'
+light-red        = '{{ red.hex }}'
+light-white      = '{{ subtext0.hex }}'
+light-yellow     = '{{ yellow.hex }}'

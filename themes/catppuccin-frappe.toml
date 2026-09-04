@@ -5,32 +5,48 @@ foreground       = '#c6d0f5'
 background       = '#303446'
 black            = '#51576d'
 blue             = '#8caaee'
-cursor           = '#f2d5cf'
 cyan             = '#81c8be'
 green            = '#a6d189'
 magenta          = '#f4b8e4'
 red              = '#e78284'
-white            = '#b5bfe2'
+white            = '#a5adce'
 yellow           = '#e5c890'
 
+# Cursor
+cursor           = '#f2d5cf'
+vi-cursor        = '#babbf1'
+
 # UI colors
-tabs             = '#303446'
-tabs-foreground  = '#c6d0f5'
-tabs-active      = '#babbf1'
-tabs-active-highlight  = '#babbf1'
-tabs-active-foreground = '#232634'
+# `tabs` and `tabs-active` are tab *title* colors; Rio derives the tab
+# island backgrounds from the window background automatically.
+tabs             = '#a5adce'
+tabs-active      = '#c6d0f5'
+split            = '#737994'
+split-active     = '#babbf1'
+
+# Selection
 selection-foreground   = '#303446'
 selection-background   = '#f2d5cf'
 
+# Search
+search-match-foreground         = '#303446'
+search-match-background         = '#a5adce'
+search-focused-match-foreground = '#303446'
+search-focused-match-background = '#a6d189'
+
+# Hints
+hint-foreground  = '#303446'
+hint-background  = '#e5c890'
+
 # Dim colors
-dim-black        = '#51576d'
+dim-black        = '#414559'
 dim-blue         = '#8caaee'
 dim-cyan         = '#81c8be'
-dim-foreground   = '#c6d0f5'
+dim-foreground   = '#949cbb'
 dim-green        = '#a6d189'
 dim-magenta      = '#f4b8e4'
 dim-red          = '#e78284'
-dim-white        = '#b5bfe2'
+dim-white        = '#838ba7'
 dim-yellow       = '#e5c890'
 
 # Light colors
@@ -41,5 +57,5 @@ light-foreground = '#c6d0f5'
 light-green      = '#a6d189'
 light-magenta    = '#f4b8e4'
 light-red        = '#e78284'
-light-white      = '#a5adce'
+light-white      = '#b5bfe2'
 light-yellow     = '#e5c890'
